@@ -7,4 +7,10 @@ Given a graph G and a set **S** of vertices equipped with "distance sensors" (th
 
 An Integer Programming model has been designed and implemented. The following library provided us a Python implementation of graphs and Dijkstra's algorithm: https://github.com/ahojukka5/Dijkstra/tree/master/dijkstra. We also used its random graph generator to test the robustness of our model.
 
-The report (*Graphs_project_report.pdf*) contains explanations about the modelling part, as well as theoretical results that were found (especially bounds on the size of **S**).
+
+**Table of Contents :**
+
+- the report (*Graphs_project_report.pdf*) contains explanations about the modelling part, as well as theoretical results that were found (especially bounds on the size of **S**).
+
+- the source code contains the model implementation. Running *main.ipynb* will compute the optimal S on a randomly generate graph, and produce a visual result.
+(Note that IBM's docplex python library should be installed: *pip install docplex*)
